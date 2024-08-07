@@ -1,8 +1,17 @@
-nav ul {
-  display: flex;
+.ben.nav ul{
   list-style-type: none;
-  justify-content: space-between;
   padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.ben.nav ul li{
+  width: 100%;
+}
+.ben.nav ul a{
+  color: #055c92;
+  display: block;
+  text-decoration: none;
+  text-align: center;
 }
 
 header {
